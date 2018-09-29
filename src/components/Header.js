@@ -1,7 +1,10 @@
 import React from "react";
-import Selector from './Selector';
+import Selector from "./Selector";
 
 class Header extends React.Component {
+  state = {
+    selectedSection: "About"
+  };
   render() {
     return (
       <div>
@@ -13,11 +16,13 @@ class Header extends React.Component {
           />
           <div>
             <h2 className="name">Tejas Bhosale</h2>
-            <p className="title">Full Stack Developer || Game Developer</p>
+            <p className="title">
+              Full Stack Developer <span> / </span> Game Developer
+            </p>
           </div>
-          <Selector />
         </div>
-        <hr className="hr"/>
+        <Selector selectedSection={this.state.selectedSection} />
+        <hr className="hr" />
       </div>
     );
   }
