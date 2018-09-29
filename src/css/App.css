@@ -18,12 +18,13 @@ body {
 }
 
 .profile-image {
-  border-radius: 5%;
-  height: 150px;
+  border-radius: 4%;
+  height: 220px;
   width: 200px;
-  border: 1px solid #272727;
-  box-shadow: 6px 6px #a9a9a9;
+  border: 2px solid #272727;
+  /* box-shadow: 0 5px 20px  #272727; */
 }
+
 .name {
   background: #272727;
   color: white;
@@ -32,12 +33,15 @@ body {
   text-align: center;
   font-size: 30px;
   text-transform: uppercase;
+  box-shadow: 0 5px 20px  #272727;
 }
 .title {
   margin: 0;
   text-align: center;
   font-size: 20px;
+  padding: 2px;
 }
+
 
 .hr {
   border: 0;
@@ -61,9 +65,15 @@ li {
 
 .selector-list {
   display: grid;
-  grid-gap: 2px;
+  grid-gap: 5px;
   grid-template-columns: repeat(6, 90px);
   align-items: center;
   justify-items: center;
   cursor: pointer;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.divider {
+  color: #272727;
 }
