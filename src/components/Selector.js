@@ -2,13 +2,7 @@ import React from "react";
 
 class Selector extends React.Component {
   render() {
-    let selectors = [
-      { name: "About" },
-      { name: "Skills" },
-      { name: "Projects" },
-      { name: "Blog" },
-      { name: "Contact" }
-    ];
+    let selectors = [{ name: "About" }, { name: "Education" }, { name: "Skills" }, { name: "Projects" }, { name: "Blog" }, { name: "Contact" }];
     return (
       <div className="container">
         <ul className="selector-list">
@@ -21,12 +15,12 @@ class Selector extends React.Component {
                       background: "#272727",
                       color: "#ffffff",
                       textTransform: "uppercase",
-                      padding:10
+                      padding: 10
                     }
                   : null
               }
             >
-            {index.name}
+              {index.name}
             </li>
           ))}
         </ul>

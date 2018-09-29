@@ -62,7 +62,7 @@ li {
 .selector-list {
   display: grid;
   grid-gap: 2px;
-  grid-template-columns: repeat(5, 100px);
+  grid-template-columns: repeat(6, 90px);
   align-items: center;
   justify-items: center;
 }

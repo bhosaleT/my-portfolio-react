@@ -1,10 +1,6 @@
 import React from "react";
-import Selector from "./Selector";
 
 class Header extends React.Component {
-  state = {
-    selectedSection: "About"
-  };
   render() {
     return (
       <div>
@@ -21,8 +17,6 @@ class Header extends React.Component {
             </p>
           </div>
         </div>
-        <Selector selectedSection={this.state.selectedSection} />
-        <hr className="hr" />
       </div>
     );
   }
