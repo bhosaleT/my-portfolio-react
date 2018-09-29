@@ -7,16 +7,19 @@ class App extends Component {
   state = {
     selectedSection: "About"
   };
-  onSelect = (section) => {
+  onSelect = section => {
     this.setState({
       selectedSection: section
-    })
+    });
   };
   render() {
     return (
       <div>
         <Header />
-        <Selector  onSelect={this.onSelect} selectedSection={this.state.selectedSection} />
+        <Selector
+          onSelect={this.onSelect}
+          selectedSection={this.state.selectedSection}
+        />
         {this.state.selectedSection}
         <hr className="hr" />
       </div>
