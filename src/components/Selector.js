@@ -26,6 +26,7 @@ class Selector extends React.Component {
                     }
                   : null
               }
+              onClick={this.props.onSelect.bind(null, index.name)}
             >
               {index.name}
             </li>

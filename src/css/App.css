@@ -65,4 +65,5 @@ li {
   grid-template-columns: repeat(6, 90px);
   align-items: center;
   justify-items: center;
+  cursor: pointer;
 }
