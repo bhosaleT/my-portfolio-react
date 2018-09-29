@@ -10,7 +10,10 @@ class Header extends React.Component {
           src="https://static.tvtropes.org/pmwiki/pub/images/eric-cartman_380.jpg"
           alt="Tejas-Bhosale"
         />
-        <h2>Front End Developer</h2>
+        <div>
+          <h2 className="name">Tejas Bhosale</h2>
+          <p className="title">Full Stack Developer || Game Developer</p>
+        </div>
       </div>
     );
   }
