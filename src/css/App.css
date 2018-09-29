@@ -19,8 +19,8 @@ body {
 
 .profile-image {
   border-radius: 4%;
-  height: 220px;
-  width: 200px;
+  height: 200px;
+  width: 180px;
   border: 2px solid #272727;
   /* box-shadow: 0 5px 20px  #272727; */
 }
