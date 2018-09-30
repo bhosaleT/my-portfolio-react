@@ -48,7 +48,9 @@ class App extends Component {
           onSelect={this.onSelect}
           selectedSection={this.state.selectedSection}
         />
-        <hr className="hr" />
+        <div>
+          <hr className="hr" />
+        </div>
         {showSection()}
       </div>
     );
