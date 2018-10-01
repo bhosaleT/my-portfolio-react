@@ -23,6 +23,7 @@ class App extends Component {
     let selectedSection = this.state.selectedSection;
 
     function showSection() {
+      console.log('StateChanged');
       switch (selectedSection) {
         case "About":
           return <About />;
