@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import Education from "./Education";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import Footer from "./Footer";
 
 class App extends Component {
   state = {
@@ -23,7 +24,7 @@ class App extends Component {
     let selectedSection = this.state.selectedSection;
 
     function showSection() {
-      console.log('StateChanged');
+      console.log("StateChanged");
       switch (selectedSection) {
         case "About":
           return <About />;
@@ -53,6 +54,7 @@ class App extends Component {
           <hr className="hr" />
         </div>
         {showSection()}
+        <Footer />
       </div>
     );
   }

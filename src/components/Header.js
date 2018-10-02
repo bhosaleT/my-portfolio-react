@@ -5,11 +5,6 @@ class Header extends React.Component {
     return (
       <div>
         <div className="header">
-          <img
-            className="profile-image"
-            src="https://static.tvtropes.org/pmwiki/pub/images/eric-cartman_380.jpg"
-            alt="Tejas-Bhosale"
-          />
           <div className="info">
             <h2 className="name">Tejas Bhosale</h2>
             <p className="title">
