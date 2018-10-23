@@ -54,7 +54,6 @@ class App extends Component {
           <hr className="hr" />
         </div>
         {showSection()}
-        <Footer />
       </div>
     );
   }

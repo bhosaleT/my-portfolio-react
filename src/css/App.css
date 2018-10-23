@@ -17,13 +17,16 @@ body {
   justify-items: center;
 }
 
+/*           ABOUT SECTION      */
+
 .profile-image {
-  border-radius: 4%;
-  /* height: 200px;
-  width: 180px; */
-  margin-left: 150px;
-  border: 2px solid #272727;
-  /* box-shadow: 0 5px 20px  #272727; */
+ width: auto;
+ height: 230px;
+ transform: rotate(270deg);
+ margin-left: 220px;
+ border-radius: 5px;
+ box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+ border: none;
 }
 
 .name {
@@ -79,7 +82,7 @@ li {
 }
 
 .about {
-  margin: 40px auto;
+  margin: 80px auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* text-align: center; */
@@ -90,7 +93,7 @@ li {
 }
 
 .about-text {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 300;
   /* grid-area: "text"; */
 }
@@ -99,20 +102,14 @@ li {
   font-weight: bold;
 }
 
-.button-holder{
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
-
 .button {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
   background: #272727;
-  padding: 10px 30px 10px 30px;
-  border-radius: 10px;
-  border: 1px solid black;
+  padding: 10px 30px;
+  /* border-radius: 10px; */
+  border: none;
   /* box-shadow: 2px 3px #888888; */
   transition: all 0.2s;
   font-size: 20px;
@@ -128,14 +125,4 @@ li {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  background: #272727;
-  width: 100%;
-}
-
-.footer p {
-  text-align: center;
-  color: white;
-}
+/*   EDUCATION SECTIOn   */

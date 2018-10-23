@@ -1,13 +1,13 @@
 import React from "react";
 
 const About = () => (
-  <div>
-    <div className="about">
-      <img
-        className="profile-image"
-        src="https://static.tvtropes.org/pmwiki/pub/images/eric-cartman_380.jpg"
-        alt="Tejas-Bhosale"
-      />
+  <div className="about">
+    <img
+      className="profile-image"
+      src={require('../images/me-2.jpg')}
+      alt="Tejas-Bhosale"
+    />
+    <div className="about__text">
       <p className="about-text">
         I'm a <span className="highlight">Full Stack Developer</span> from
         Mumbai, India. I recently graduated from Datta Meghe College of
@@ -19,8 +19,6 @@ const About = () => (
         Learning are my major plus points and I'm passionate about building
         excellent websites and discovering new ways to get the job done!
       </p>
-    </div>
-    <div className="button-holder">
       <button className="button">DOWNLOAD CV</button>
     </div>
   </div>
