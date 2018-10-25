@@ -7,8 +7,8 @@ class Selector extends React.Component {
       { name: "Education" },
       { name: "Skills" },
       { name: "Projects" },
-      { name: "Blog" },
-      { name: "Contact" }
+      { name: "Contact" },
+      { name: "Blog" }
     ];
     return (
       <div className="container">

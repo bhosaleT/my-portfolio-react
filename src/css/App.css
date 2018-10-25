@@ -96,10 +96,12 @@ li {
   font-size: 20px;
   font-weight: 300;
   /* grid-area: "text"; */
+  color: #696969;
 }
 
 .highlight {
   font-weight: bold;
+  color: #272727;
 }
 
 .button {
@@ -125,4 +127,76 @@ li {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
 }
 
-/*   EDUCATION SECTIOn   */
+/*   EDUCATION SECTION   */
+.education-block {
+  margin: 50px auto;
+  width: 800px;
+}
+
+.education-block__tab {
+  display: flex;
+  border-bottom: 1px solid #272727;
+  /* margin-bottom: 10px;   */
+}
+.education-block__date {
+  flex: 0 0 30%;
+  background: #272727;
+  color: white;
+  font-size: 25px;
+  display: inline-block;
+  height: 35px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.education-block__info {
+  flex: 1;
+  padding-left: 60px;
+}
+
+.education-block__heading {
+  font-size: 18px;
+  /* background: #272727; */
+  padding: 10px 0;
+  /* color: white; */
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.education-block__paragraph {
+  font-size: 16px;
+  text-align: left;
+  color: #696969;
+}
+
+/*            SKILLS SECTION                 */
+.skill-block {
+  margin: 50px auto;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-block__heading {
+  background: #272727;
+  width: 100px;
+  padding: 10px 5px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.skill-list {
+  padding: 0;
+  margin: 0;
+}
+
+.skill-item{
+  font-size: 17px;
+  padding: 5px 0;
+  color: #696969;
+}

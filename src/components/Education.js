@@ -1,9 +1,62 @@
-import React from 'react';
+import React from "react";
 
 const Education = () => (
-    <div>
-        <h2>Education</h2>
+  <div className="education-block">
+    <div className="education-block__tab">
+      <h3 className="education-block__date">JUN 18 - NOV 18</h3>
+      <div className="education-block__info">
+        <h4 className="education-block__heading">
+          Front-End Developer Nanodegree Udacity
+        </h4>
+        <p className="education-block__paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+          debitis quibusdam voluptatum, similique deleniti corporis maiores
+          iusto vel sit quasi quia sequi eveniet consequuntur deserunt. Maiores
+          optio mollitia ipsum quod.
+        </p>
+      </div>
     </div>
-)
+    <div className="education-block__tab">
+      <h3 className="education-block__date">AUG 13 - JUN 18</h3>
+      <div className="education-block__info">
+        <h4 className="education-block__heading">
+          Bachelor of Engineering in Computer Science
+        </h4>
+        <p className="education-block__paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+          debitis quibusdam voluptatum, similique deleniti corporis maiores
+          iusto vel sit quasi quia sequi eveniet consequuntur deserunt. Maiores
+          optio mollitia ipsum quod.
+        </p>
+      </div>
+    </div>
+    <div className="education-block__tab">
+      <h3 className="education-block__date">JUN 11 - JUN 13</h3>
+      <div className="education-block__info">
+        <h4 className="education-block__heading">
+          Junior College 11 - 12th grade
+        </h4>
+        <p className="education-block__paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+          debitis quibusdam voluptatum, similique deleniti corporis maiores
+          iusto vel sit quasi quia sequi eveniet consequuntur deserunt. Maiores
+          optio mollitia ipsum quod.
+        </p>
+      </div>
+    </div>
+    <div className="education-block__tab">
+      <h3 className="education-block__date">JUN 18 - NOV 18</h3>
+      <div className="education-block__info">
+        <h4 className="education-block__heading">SCHOOL</h4>
+        <p className="education-block__paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+          debitis quibusdam voluptatum, similique deleniti corporis maiores
+          iusto vel sit quasi quia sequi eveniet consequuntur deserunt. Maiores
+          optio mollitia ipsum quod.
+        </p>
+      </div>
+    </div>
+  </div>
+);
 
 export default Education;
