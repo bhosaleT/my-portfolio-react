@@ -3,7 +3,14 @@ import React from "react";
 const Education = () => (
   <div className="education-block">
     <div className="education-block__tab">
-      <h3 className="education-block__date">JUN 18 - NOV 18</h3>
+      <h3 className="education-block__date">
+        <img
+          className="button-download"
+          src={require("../images/svg/calendar.svg")}
+          alt="download button"
+        />
+        JUN 18 - NOV 18
+      </h3>
       <div className="education-block__info">
         <h4 className="education-block__heading">
           Front-End Developer Nanodegree Udacity
@@ -17,7 +24,14 @@ const Education = () => (
       </div>
     </div>
     <div className="education-block__tab">
-      <h3 className="education-block__date">AUG 13 - JUN 18</h3>
+      <h3 className="education-block__date">
+        <img
+          className="button-download"
+          src={require("../images/svg/calendar.svg")}
+          alt="download button"
+        />
+        AUG 13 - JUN 18
+      </h3>
       <div className="education-block__info">
         <h4 className="education-block__heading">
           Bachelor of Engineering in Computer Science
@@ -31,7 +45,14 @@ const Education = () => (
       </div>
     </div>
     <div className="education-block__tab">
-      <h3 className="education-block__date">JUN 11 - JUN 13</h3>
+      <h3 className="education-block__date">
+        <img
+          className="button-download"
+          src={require("../images/svg/calendar.svg")}
+          alt="download button"
+        />
+        JUN 11 - JUN 13
+      </h3>
       <div className="education-block__info">
         <h4 className="education-block__heading">
           Junior College 11 - 12th grade
@@ -45,7 +66,14 @@ const Education = () => (
       </div>
     </div>
     <div className="education-block__tab">
-      <h3 className="education-block__date">JUN 18 - NOV 18</h3>
+      <h3 className="education-block__date">
+        <img
+          className="button-download"
+          src={require("../images/svg/calendar.svg")}
+          alt="download button"
+        />
+        JUN 18 - NOV 18
+      </h3>
       <div className="education-block__info">
         <h4 className="education-block__heading">SCHOOL</h4>
         <p className="education-block__paragraph">

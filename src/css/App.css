@@ -122,6 +122,9 @@ li {
   font-size: 16px;
   margin-top: 15px;
   margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button:hover {
@@ -131,6 +134,13 @@ li {
 .button:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.button-download{
+  /* background-color: white; */
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
 }
 
 /*   EDUCATION SECTION   */
@@ -149,7 +159,7 @@ li {
   flex: 0 0 30%;
   background: #272727;
   color: white;
-  font-size: 25px;
+  font-size: 22px;
   display: inline-block;
   height: 35px;
   font-weight: 300;

@@ -3,7 +3,14 @@ import React from "react";
 const Skills = () => (
   <div className="skill-block">
     <div className="skill-block__tab">
-      <h4 className="skill-block__heading">Front End</h4>
+      <h4 className="skill-block__heading">
+        <img
+          className="button-download"
+          src={require("../images/svg/code.svg")}
+          alt="download button"
+        />
+        Front End
+      </h4>
       <ul className="skill-list">
         <li className="skill-item">HTML5</li>
         <li className="skill-item">CSS3 / Sass</li>
@@ -15,7 +22,14 @@ const Skills = () => (
       </ul>
     </div>
     <div className="skill-block__tab">
-      <h4 className="skill-block__heading">Back End</h4>
+      <h4 className="skill-block__heading">
+        <img
+          className="button-download"
+          src={require("../images/svg/archive.svg")}
+          alt="download button"
+        />
+        Back End
+      </h4>
       <ul className="skill-list">
         <li className="skill-item">Node.js</li>
         <li className="skill-item">Express</li>
@@ -24,7 +38,14 @@ const Skills = () => (
       </ul>
     </div>
     <div className="skill-block__tab">
-      <h4 className="skill-block__heading">Other</h4>
+      <h4 className="skill-block__heading">
+        <img
+          className="button-download"
+          src={require("../images/svg/github.svg")}
+          alt="download button"
+        />
+        Other
+      </h4>
       <ul className="skill-list">
         <li className="skill-item">Git / Github</li>
         <li className="skill-item">JSON</li>
