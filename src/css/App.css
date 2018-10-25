@@ -66,6 +66,7 @@ body {
 li {
   list-style: none;
   margin: 0;
+  letter-spacing: 0.2px;
 }
 
 .selector-list {
@@ -99,8 +100,8 @@ li {
   /* color: #696969; */
   letter-spacing: 0.5px;
   /* margin-right: 15px; */
-   background: #eeeeee;
-   padding: 20px;
+  background: #eeeeee;
+  padding: 20px;
 }
 
 .highlight {
@@ -141,8 +142,8 @@ li {
 
 .education-block__tab {
   display: flex;
-  border-bottom: 1px solid #272727;
-  /* margin-bottom: 10px;   */
+  /* border-bottom: 1px solid #272727; */
+  margin-bottom: 10px;
 }
 .education-block__date {
   flex: 0 0 30%;
@@ -154,27 +155,28 @@ li {
   font-weight: 300;
   display: flex;
   align-items: center;
+  margin-right: 25px;
   justify-content: center;
 }
 
 .education-block__info {
   flex: 1;
-  padding-left: 60px;
+  padding: 10px;
+  /* padding-left: 60px; */
+  background: #eeeeee;
 }
 
 .education-block__heading {
   font-size: 18px;
-  /* background: #272727; */
-  padding: 10px 0;
-  /* color: white; */
-  text-align: left;
+  padding: 0;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: bold;
+  letter-spacing: 0.5px;
 }
+
 .education-block__paragraph {
   font-size: 16px;
-  text-align: left;
-  color: #696969;
+
 }
 
 /*            SKILLS SECTION                 */
@@ -201,7 +203,7 @@ li {
   margin: 0;
 }
 
-.skill-item{
+.skill-item {
   font-size: 17px;
   padding: 5px 0;
   color: #696969;
