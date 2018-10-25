@@ -20,13 +20,13 @@ body {
 /*           ABOUT SECTION      */
 
 .profile-image {
- width: auto;
- height: 230px;
- transform: rotate(270deg);
- margin-left: 220px;
- border-radius: 5px;
- box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
- border: none;
+  width: auto;
+  height: 230px;
+  transform: rotate(270deg);
+  /* margin-left: 220px; */
+  border-radius: 5px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+  border: none;
 }
 
 .name {
@@ -82,14 +82,14 @@ li {
 }
 
 .about {
-  margin: 80px auto;
+  margin: 50px auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* text-align: center; */
   line-height: 1.5;
   justify-content: center;
   align-items: center;
-  width: 1200px;
+  width: 800px;
 }
 
 .about-text {
@@ -107,13 +107,13 @@ li {
   text-transform: uppercase;
   color: white;
   background: #272727;
-  padding: 10px 30px;
+  padding: 8px 20px;
   /* border-radius: 10px; */
   border: none;
   /* box-shadow: 2px 3px #888888; */
   transition: all 0.2s;
-  font-size: 20px;
-  margin-top: 35px;
+  font-size: 16px;
+  margin-top: 15px;
 }
 
 .button:hover {
