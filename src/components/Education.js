@@ -16,10 +16,13 @@ const Education = () => (
           Front-End Developer Nanodegree Udacity
         </h4>
         <p className="education-block__paragraph">
+          <q>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
           debitis quibusdam voluptatum, similique deleniti corporis maiores
           iusto vel sit quasi quia sequi eveniet consequuntur deserunt. Maiores
           optio mollitia ipsum quod.
+          </q>
+          
         </p>
       </div>
     </div>
@@ -37,10 +40,12 @@ const Education = () => (
           Bachelor of Engineering in Computer Science
         </h4>
         <p className="education-block__paragraph">
+          <q>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
           debitis quibusdam voluptatum, similique deleniti corporis maiores
           iusto vel sit quasi quia sequi eveniet consequuntur deserunt. Maiores
           optio mollitia ipsum quod.
+          </q>
         </p>
       </div>
     </div>
@@ -58,10 +63,12 @@ const Education = () => (
           Junior College 11 - 12th grade
         </h4>
         <p className="education-block__paragraph">
+          <q>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
           debitis quibusdam voluptatum, similique deleniti corporis maiores
           iusto vel sit quasi quia sequi eveniet consequuntur deserunt. Maiores
           optio mollitia ipsum quod.
+          </q>
         </p>
       </div>
     </div>
@@ -77,10 +84,12 @@ const Education = () => (
       <div className="education-block__info">
         <h4 className="education-block__heading">SCHOOL</h4>
         <p className="education-block__paragraph">
+         <q>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
           debitis quibusdam voluptatum, similique deleniti corporis maiores
           iusto vel sit quasi quia sequi eveniet consequuntur deserunt. Maiores
           optio mollitia ipsum quod.
+          </q>
         </p>
       </div>
     </div>
