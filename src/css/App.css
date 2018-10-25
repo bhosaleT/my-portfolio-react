@@ -176,7 +176,7 @@ li {
 
 .education-block__paragraph {
   font-size: 16px;
-
+  letter-spacing: 0.3px;
 }
 
 /*            SKILLS SECTION                 */
@@ -189,10 +189,12 @@ li {
 
 .skill-block__heading {
   background: #272727;
-  width: 100px;
-  padding: 10px 5px;
+  width: 100%;
+  padding: 5px 0;
   font-size: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   text-transform: uppercase;
   font-weight: 300;
@@ -200,11 +202,14 @@ li {
 
 .skill-list {
   padding: 0;
-  margin: 0;
+  width: 100%;
 }
 
 .skill-item {
   font-size: 17px;
-  padding: 5px 0;
-  color: #696969;
+  padding: 5px 15px;
+  color: #272727;
+  margin-bottom: 5px;
+  background-color: #eeeeee;
+  /* text-align: center; */
 }
