@@ -6,7 +6,7 @@ const Skills = () => (
       <h4 className="skill-block__heading">
         <img
           className="button-download"
-          src={require("../images/svg/code.svg")}
+          src={require("../images/svg/html-five.svg")}
           alt="download button"
         />
         Front End
@@ -41,7 +41,7 @@ const Skills = () => (
       <h4 className="skill-block__heading">
         <img
           className="button-download"
-          src={require("../images/svg/github.svg")}
+          src={require("../images/svg/git.svg")}
           alt="download button"
         />
         Other

@@ -1,4 +1,5 @@
 import React from "react";
+import markerImage from "../images/svg/location2.svg";
 
 class Contact extends React.Component {
   componentWillMount() {
@@ -15,17 +16,38 @@ class Contact extends React.Component {
   initMap = () => {
       var styles = [
           {
-              "featureType": "administrative",
-              "elementType": "all",
+              "featureType": "all",
+              "elementType": "labels.text.fill",
               "stylers": [
                   {
-                      "saturation": "-100"
+                      "saturation": 36
+                  },
+                  {
+                      "color": "#000000"
+                  },
+                  {
+                      "lightness": 40
                   }
               ]
           },
           {
-              "featureType": "administrative.province",
-              "elementType": "all",
+              "featureType": "all",
+              "elementType": "labels.text.stroke",
+              "stylers": [
+                  {
+                      "visibility": "on"
+                  },
+                  {
+                      "color": "#000000"
+                  },
+                  {
+                      "lightness": 16
+                  }
+              ]
+          },
+          {
+              "featureType": "all",
+              "elementType": "labels.icon",
               "stylers": [
                   {
                       "visibility": "off"
@@ -33,80 +55,116 @@ class Contact extends React.Component {
               ]
           },
           {
-              "featureType": "landscape",
-              "elementType": "all",
+              "featureType": "administrative",
+              "elementType": "geometry.fill",
               "stylers": [
                   {
-                      "saturation": -100
+                      "color": "#000000"
                   },
                   {
-                      "lightness": 65
+                      "lightness": 20
+                  }
+              ]
+          },
+          {
+              "featureType": "administrative",
+              "elementType": "geometry.stroke",
+              "stylers": [
+                  {
+                      "color": "#000000"
                   },
                   {
-                      "visibility": "on"
+                      "lightness": 17
+                  },
+                  {
+                      "weight": 1.2
+                  }
+              ]
+          },
+          {
+              "featureType": "landscape",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "color": "#000000"
+                  },
+                  {
+                      "lightness": 20
                   }
               ]
           },
           {
               "featureType": "poi",
-              "elementType": "all",
+              "elementType": "geometry",
               "stylers": [
                   {
-                      "saturation": -100
+                      "color": "#000000"
                   },
                   {
-                      "lightness": "50"
-                  },
-                  {
-                      "visibility": "simplified"
-                  }
-              ]
-          },
-          {
-              "featureType": "road",
-              "elementType": "all",
-              "stylers": [
-                  {
-                      "saturation": "-100"
+                      "lightness": 21
                   }
               ]
           },
           {
               "featureType": "road.highway",
-              "elementType": "all",
+              "elementType": "geometry.fill",
               "stylers": [
                   {
-                      "visibility": "simplified"
+                      "color": "#000000"
+                  },
+                  {
+                      "lightness": 17
+                  }
+              ]
+          },
+          {
+              "featureType": "road.highway",
+              "elementType": "geometry.stroke",
+              "stylers": [
+                  {
+                      "color": "#000000"
+                  },
+                  {
+                      "lightness": 29
+                  },
+                  {
+                      "weight": 0.2
                   }
               ]
           },
           {
               "featureType": "road.arterial",
-              "elementType": "all",
+              "elementType": "geometry",
               "stylers": [
                   {
-                      "lightness": "30"
+                      "color": "#000000"
+                  },
+                  {
+                      "lightness": 18
                   }
               ]
           },
           {
               "featureType": "road.local",
-              "elementType": "all",
+              "elementType": "geometry",
               "stylers": [
                   {
-                      "lightness": "40"
+                      "color": "#000000"
+                  },
+                  {
+                      "lightness": 16
                   }
               ]
           },
           {
               "featureType": "transit",
-              "elementType": "all",
+              "elementType": "geometry",
               "stylers": [
                   {
-                      "saturation": -100
+                      "color": "#000000"
                   },
                   {
-                      "visibility": "simplified"
+                      "lightness": 19
                   }
               ]
           },
@@ -115,66 +173,80 @@ class Contact extends React.Component {
               "elementType": "geometry",
               "stylers": [
                   {
-                      "hue": "#ffff00"
+                      "color": "#000000"
                   },
                   {
-                      "lightness": -25
-                  },
-                  {
-                      "saturation": -97
-                  }
-              ]
-          },
-          {
-              "featureType": "water",
-              "elementType": "labels",
-              "stylers": [
-                  {
-                      "lightness": -25
-                  },
-                  {
-                      "saturation": -100
+                      "lightness": 17
                   }
               ]
           }
       ]
 
+    var contentString = `<div>
+  <h3 class="map-heading">I am from here</h3>
+  <p class="map-info"> Kalyan, Thane, Mumbai, Maharashtra 421301</p>
+ </div>`;
+
+    var infowindow = new window.google.maps.InfoWindow({
+      content: contentString
+    });
+
     var map = new window.google.maps.Map(document.getElementById("map"), {
       center: {
-        lat: 19.076,
-        lng: 72.8777
+        lat: 19.2183,
+        lng: 72.9781
       },
-      zoom: 12,
+      zoom: 11,
       styles: styles,
       disableDefaultUI: true,
-      gestureHandling: "greedy",
+    //   gestureHandling: "greedy",
       mapTypeControl: false
     });
 
-      var marker = new window.google.maps.Marker({
-          position: {
-              lat: 19.076,
-              lng: 72.8777
-          },
-          map: map,
-          title: 'Mumbai'
-      });
+    var marker = new window.google.maps.Marker({
+      position: {
+        lat: 19.228,
+        lng: 72.9791
+      },
+      map: map,
+      draggable: true,
+      icon: markerImage,
+      title: "Thane",
+      animation: window.google.maps.Animation.DROP
+    });
+
+    marker.addListener("click", function() {
+      infowindow.open(map, marker);
+    });
   };
-
-
 
   render() {
     return (
       <div className="contact">
         <div id="map" />
-        <div className="contact-options">
-          <ul className="contact-list">
-            <li className="contact-item">Mail</li>
-            <li className="contact-item">Github</li>
-            <li className="contact-item">Linkedin</li>
-            <li className="contact-item">Instagram</li>
-          </ul>
-        </div>
+
+        <ul className="contact-list">
+          <li className="contact-item">
+            <a href="">
+              <img src={require("../images/svg/mail.svg")} alt="" />
+            </a>
+          </li>
+          <li className="contact-item">
+            <a href="">
+              <img src={require("../images/svg/github.svg")} alt="" />
+            </a>
+          </li>
+          <li className="contact-item">
+            <a href="">
+              <img src={require("../images/svg/linkedin.svg")} alt="" />
+            </a>
+          </li>
+          <li className="contact-item">
+            <a href="">
+              <img src={require("../images/svg/instagram.svg")} alt="" />
+            </a>
+          </li>
+        </ul>
       </div>
     );
   }
