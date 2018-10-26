@@ -131,16 +131,16 @@ li {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
 }
-.button:focus{
+.button:focus {
   outline: none;
 }
 .button:active {
   transform: translateY(-1px);
- outline: none;
+  outline: none;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
 }
 
-.button-download{
+.button-download {
   /* background-color: white; */
   height: 20px;
   width: 20px;
@@ -228,4 +228,39 @@ li {
   margin-bottom: 5px;
   background-color: #eeeeee;
   /* text-align: center; */
+}
+
+/*             CONTACT SECTIOn        */
+.contact {
+  margin: 50px auto;
+  width: 800px;
+  display: flex;
+  background-color: #eeeeee;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+#map {
+  height: 500px;
+  /* margin-top: -1.7rem; */
+  padding: 0;
+  flex: 0 0 50%;
+  /* border-right: 2px solid #272727; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.contact-options{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-list{
+  display: flex;
+}
+
+.contact-item{
+  padding: 5px 10px;
+  background: #272727;
+  color: white;
+  margin: 2px;
 }
