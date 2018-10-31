@@ -248,6 +248,15 @@ li {
   justify-content: space-between;
 }
 
+@media (max-width: 900px) {
+  .skill-block {
+    display: flex;
+    /* margin: 50px auto; */
+    flex-direction: column;
+    width: 400px;
+  }
+}
+
 .skill-block__heading {
   background: #272727;
   width: 100%;
@@ -287,12 +296,15 @@ li {
 
 @media (max-width: 810px) {
   .contact {
+    /* margin: 0; */
     display: flex;
     flex-direction: column;
+    width: 500px;
+    padding-bottom: 20px;
   }
+
   #map {
-  
-    width: auto;
+    margin-bottom: 20px;
   }
 }
 
