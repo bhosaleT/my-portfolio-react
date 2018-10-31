@@ -175,6 +175,11 @@ class Contact extends React.Component {
 
 export default Contact;
 
+// function removeScript(){
+//   var index = window.document.getElementsByTagName("script")[0];
+
+// }
+
 function loadScript(url) {
   var index = window.document.getElementsByTagName("script")[0];
   var script = window.document.createElement("script");

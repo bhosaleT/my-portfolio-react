@@ -30,6 +30,15 @@ body {
   margin-top: 80px;
 }
 
+@media (max-width: 800px) {
+  .profile-image {
+    height: auto;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
 .name {
   background: #272727;
   color: white;
@@ -93,6 +102,15 @@ li {
   width: 800px;
 }
 
+@media (max-width: 800px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .about-text {
   font-size: 20px;
   font-weight: 300;
@@ -102,6 +120,13 @@ li {
   /* margin-right: 15px; */
   background: #eeeeee;
   padding: 20px;
+}
+
+@media (max-width: 800px) {
+  .about-text {
+    font-size: 18px;
+    width: 500px;
+  }
 }
 
 .highlight {
@@ -159,6 +184,27 @@ li {
   /* border-bottom: 1px solid #272727; */
   margin-bottom: 10px;
 }
+
+@media (max-width: 840px) {
+  .education-block__tab {
+    display: flex;
+    flex-direction: column;
+    /* border-bottom: 1px solid #272727; */
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .education-block__date {
+    width: 200px;
+  }
+  .education-block__info {
+    width: 600px;
+    padding: 10px;
+    /* padding-left: 60px; */
+    background: #eeeeee;
+  }
+}
+
 .education-block__date {
   flex: 0 0 30%;
   background: #272727;
@@ -237,6 +283,17 @@ li {
   display: flex;
   background-color: #eeeeee;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 810px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  #map {
+  
+    width: auto;
+  }
 }
 
 #map {
