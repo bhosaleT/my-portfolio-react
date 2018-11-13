@@ -1,9 +1,20 @@
-import React from 'react';
+import React from "react";
+import projectElements from "../projects";
+import ProjectItem from './ProjectItem';
 
-const Projects = () => (
-    <div>
-        <h2>Projects</h2>
-    </div>
-)
+class Projects extends React.Component {
+  render() {
+    const projectArray = Object.values(projectElements);
+    return (
+      <div>
+        <ul>
+          {projectArray.map(project => (
+            <li><ProjectItem project={project} /></li>
+          ))}
+        </ul>
+      </div>
+    );
+  }
+}
 
 export default Projects;
