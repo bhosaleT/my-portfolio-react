@@ -17,7 +17,7 @@ const projectElements = {
     },
     project5: {
         name: "Advanced CSS",
-        descShort: "Beautifully designed website using everything that CSS has to offer!"
+        descShort: "Three beautifully designed websites using everything that CSS has to offer!"
     },
     project6: {
         name: "Cinema Wars",
