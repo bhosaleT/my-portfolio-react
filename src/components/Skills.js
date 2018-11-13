@@ -34,7 +34,7 @@ const Skills = () => (
         <li className="skill-item">Node.js</li>
         <li className="skill-item">Express</li>
         <li className="skill-item">Firebase</li>
-        <li className="skill-item">Firebase Authentication</li>
+        <li className="skill-item">MySQL and NoSQL</li>
       </ul>
     </div>
     <div className="skill-block__tab">
@@ -49,11 +49,9 @@ const Skills = () => (
       <ul className="skill-list">
         <li className="skill-item">Git / Github</li>
         <li className="skill-item">JSON</li>
-        <li className="skill-item">Google Maps API</li>
-        <li className="skill-item">FourSquare API</li>
-        <li className="skill-item">Testing with Jest</li>
+        <li className="skill-item">Webpack</li>
         <li className="skill-item">Responsive Design</li>
-        <li className="skill-item"> Service Workers </li>
+        <li className="skill-item">Jasmine/Jest Testing</li>
       </ul>
     </div>
   </div>
