@@ -20,7 +20,7 @@ const projectElements = {
   project4: {
     name: "Bookish",
     descShort: "We know you got Books for Days! let us help you manage them!",
-    tags: ["React.js", "CSS", "ES6", "Jest"]
+    tags: ["React.js", "AJAX", "CSS", "ES6", "Jest"]
   },
   project5: {
     name: "Advanced CSS",
