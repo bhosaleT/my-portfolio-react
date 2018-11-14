@@ -9,7 +9,7 @@ class Projects extends React.Component {
       <div>
         <ul className="projects">
           {projectArray.map(project => (
-            <li><ProjectItem project={project} /></li>
+            <li key={project.name}><ProjectItem project={project} /></li>
           ))}
         </ul>
       </div>

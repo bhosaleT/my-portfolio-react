@@ -9,7 +9,7 @@ class ProjectItem extends React.Component {
         <div className="tag-div">
           <ul className="tags">
             {this.props.project.tags.map(tag => (
-              <li className="tag-item">#{tag}</li>
+              <li key={tag} className="tag-item">#{tag}</li>
             ))}
           </ul>
         </div>
