@@ -57,14 +57,6 @@ body {
   padding: 2px;
 }
 
-.hr {
-  border: 0;
-  height: 1px;
-  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-}
 
 .container {
   display: grid;
@@ -113,7 +105,7 @@ li {
 
 .about-text {
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 380;
   /* grid-area: "text"; */
   /* color: #696969; */
   letter-spacing: 0.5px;
@@ -238,6 +230,7 @@ li {
 .education-block__paragraph {
   font-size: 16px;
   letter-spacing: 0.3px;
+  font-weight: 300;
 }
 
 /*            SKILLS SECTION                 */
@@ -358,7 +351,7 @@ li {
   padding: 10px;
   height: 250px;
   /* border-radius: 5px; */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
   display: grid;
   justify-content: center;
   align-items: center;
@@ -372,6 +365,7 @@ li {
 
 .project-desc {
   height: 55px;
+  font-weight: 300;
 }
 
 .tag-div {
@@ -389,13 +383,14 @@ li {
 }
 
 .tag-item {
-  background-color: #a9a9a9;
+  background-color: white;
   color: #272727;
   font-size: 14px;
   text-transform: uppercase;
   text-align: center;
   padding: 1px;
-  color: white;
+  /* color: white; */
+  font-weight: 400;
   /* border-radius: 5px; */
   box-shadow: 0 0.5px 0.5px rgba(0, 0, 0, 0.9);
 }

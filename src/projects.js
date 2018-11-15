@@ -25,7 +25,7 @@ const projectElements = {
   project5: {
     name: "Advanced CSS",
     descShort:
-      "Three beautifully designed websites using everything that CSS has to offer!",
+      "Three beautifully designed websites using everything that HTML/SaSS has to offer!",
     tags: ["SASS", "CSS_GRID", "FLEXBOX", "ES6", "ANIMATIONS"]
   },
   project6: {
