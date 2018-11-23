@@ -4,7 +4,7 @@ const About = () => (
   <div className="about">
     <img
       className="profile-image"
-      src={require('../images/me-2.jpeg')}
+      src={require('../images/me.png')}
       alt="Tejas-Bhosale"
     />
     <div className="about__text">
