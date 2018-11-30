@@ -60,7 +60,7 @@ const Education = () => (
       </h3>
       <div className="education-block__info">
         <h4 className="education-block__heading">
-          Junior College 11 - 12th grade
+         School - Junior College
         </h4>
         <p className="education-block__paragraph">
           <q>
