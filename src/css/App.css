@@ -33,58 +33,55 @@ body {
 }
 
 @keyframes moveInLeft {
-  0%{
+  0% {
     opacity: 0;
     transform: translateX(-100px);
   }
 
-  80%{
+  80% {
     opacity: 0.6;
     transform: translateX(5px);
   }
 
-  100%{
+  100% {
     opacity: 1;
     transform: translateX(0);
   }
 }
 
 @keyframes moveInRight {
-  0%{
+  0% {
     opacity: 0;
     transform: translateX(100px);
   }
 
-  80%{
+  80% {
     opacity: 0.6;
     transform: translateX(-5px);
   }
 
-  100%{
+  100% {
     opacity: 1;
     transform: translateX(0);
   }
 }
 
-
-
 @keyframes moveFromBottom {
-  0%{
+  0% {
     opacity: 0;
     transform: translateY(100px);
   }
 
-  80%{
+  80% {
     opacity: 0.6;
     transform: translateY(-5px);
   }
 
-  100%{
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
 
 @media (max-width: 800px) {
   .profile-image {
@@ -112,7 +109,6 @@ body {
   font-size: 20px;
   padding: 2px;
 }
-
 
 .container {
   display: grid;
@@ -281,23 +277,19 @@ li {
   padding: 10px;
   /* padding-left: 60px; */
   background: #eeeeee;
-  /* animation-name: moveInRight;
-  animation-duration: 1.5s; */
+  animation-name: moveInRight;
+  animation-duration: 1.5s;
 }
 
 .education-block__heading {
   font-size: 18px;
   padding: 0;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.5px;
-   animation: 
+  /* animation: 
     typing 3.5s steps(30, end),
-    blinking-cursor .5s step-end infinite;
+    blinking-cursor .5s step-end infinite; */
 }
 
 .education-block__paragraph {
@@ -347,19 +339,51 @@ li {
   padding: 5px 15px;
   color: #272727;
   overflow: hidden;
-  margin:0 auto 5px auto;
+  margin: 0 auto 5px auto;
   white-space: nowrap;
   background-color: #eeeeee;
   /* text-align: center; */
+  animation: fadeIn 0.5s linear;
+  animation-fill-mode: both;
+  box-shadow: 0 0.1px 0.2px rgba(0, 0, 0, 0.7);
 }
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+
+.skill-item:nth-child(1) {
+  animation-delay: 0.15s;
 }
-/* The typewriter cursor effect */
-@keyframes blinking-cursor {
-  from, to { border-color: transparent }
-  50% { border-color: #272727; }
+
+.skill-item:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.skill-item:nth-child(3) {
+  animation-delay: 0.45s;
+}
+.skill-item:nth-child(4) {
+  animation-delay: 1s;
+}
+.skill-item:nth-child(5) {
+  animation-delay: 1.15s;
+}
+.skill-item:nth-child(6) {
+  animation-delay: 1.3s;
+}
+.skill-item:nth-child(7) {
+  animation-delay: 1.45s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    top: 100px;
+  }
+  75% {
+    opacity: 0.5;
+    top: 0px;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*             CONTACT SECTIOn        */
