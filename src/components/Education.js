@@ -72,27 +72,6 @@ const Education = () => (
         </p>
       </div>
     </div>
-    <div className="education-block__tab">
-      <h3 className="education-block__date">
-        <img
-          className="button-download"
-          src={require("../images/svg/calendar.svg")}
-          alt="download button"
-        />
-        JUN 18 - NOV 18
-      </h3>
-      <div className="education-block__info">
-        <h4 className="education-block__heading">SCHOOL</h4>
-        <p className="education-block__paragraph">
-         <q>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
-          debitis quibusdam voluptatum, similique deleniti corporis maiores
-          iusto vel sit quasi quia sequi eveniet consequuntur deserunt. Maiores
-          optio mollitia ipsum quod.
-          </q>
-        </p>
-      </div>
-    </div>
   </div>
 );
 

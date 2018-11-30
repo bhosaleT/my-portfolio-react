@@ -12,13 +12,13 @@ const Skills = () => (
         Front End
       </h4>
       <ul className="skill-list">
-        <li className="skill-item fe">HTML5</li>
-        <li className="skill-item fe">CSS3 / Sass</li>
-        <li className="skill-item fe">FlexBox / CSS-GRID</li>
-        <li className="skill-item fe">JavaScript (ES6)</li>
-        <li className="skill-item fe">jQuery</li>
-        <li className="skill-item fe">React</li>
-        <li className="skill-item fe">Redux</li>
+        <li className="skill-item">HTML5</li>
+        <li className="skill-item">CSS3 / Sass</li>
+        <li className="skill-item">FlexBox / CSS-GRID</li>
+        <li className="skill-item">JavaScript (ES6)</li>
+        <li className="skill-item">jQuery</li>
+        <li className="skill-item">React</li>
+        <li className="skill-item">Redux</li>
       </ul>
     </div>
     <div className="skill-block__tab">
