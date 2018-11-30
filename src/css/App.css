@@ -345,7 +345,7 @@ li {
   /* text-align: center; */
   animation: fadeIn 0.5s linear;
   animation-fill-mode: both;
-  box-shadow: 0 0.1px 0.2px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0.001px 0.002px rgba(0, 0, 0, 0.7);
 }
 
 .skill-item:nth-child(1) {
