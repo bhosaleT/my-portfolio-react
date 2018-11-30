@@ -240,7 +240,7 @@ li {
   animation-delay: 0.25s;
 }
 .education-block__tab:nth-child(2) {
-  animation-delay: 0.5s;
+  animation-delay: 0.50s;
 }
 .education-block__tab:nth-child(3) {
   animation-delay: 1.15s;
@@ -390,7 +390,7 @@ li {
     opacity: 0;
     top: 100px;
   }
-  75% {
+  70% {
     opacity: 0.5;
     top: 0px;
   }
@@ -526,10 +526,29 @@ li {
 .blog-heading{
   /* text-align: center; */
   text-transform: uppercase;
-  margin: 30px 0;
-  font-size: 25px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #272727; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .03em; 
+  /* font-size: 25px; */
   padding: 10px;
   font-weight: 300;
   background: #eeeeee;
-  text-align: center;
+  /* text-align: center; */
+   animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* -- typewriter animation for blog heading */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #272727 }
 }
