@@ -194,8 +194,9 @@ li {
   margin-top: 15px;
   margin-bottom: 15px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
+  width: 150px;
   animation-name: moveFromBottom;
   animation-duration: 1.5s;
 }
