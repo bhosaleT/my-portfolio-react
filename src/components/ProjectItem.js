@@ -4,16 +4,49 @@ class ProjectItem extends React.Component {
   render() {
     return (
       <div className="project">
-        <h1 className="project-title">{this.props.project.name}</h1>
-        <p className="project-desc">{this.props.project.descShort}</p>
-        <div className="tag-div">
-          <ul className="tags">
-            {this.props.project.tags.map(tag => (
-              <li key={tag} className="tag-item">#{tag}</li>
-            ))}
-          </ul>
+        <div className="img-container">
+          <img className="project-img" src={this.props.project.image} alt="" />
         </div>
-        <button className="button">View More</button>
+
+        <div>
+          <h1 className="project-title">{this.props.project.name}</h1>
+          <p className="project-shortDesc">
+            <i>"{this.props.project.descShort}"</i>{" "}
+          </p>
+          <p className="project-desc">{this.props.project.desc}</p>
+          <div className="project-bottom">
+            <div className="tag">
+              {this.props.project.tags.map(tag => (
+                <p key={tag} className="tag-item">
+                  {tag}
+                </p>
+              ))}
+            </div>
+
+            <ul className="buttons">
+              <li className="link-item">
+                <a
+                  className="link"
+                  href="https://github.com/bhosaleT"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={require("../images/svg/github.svg")} alt="Github" />
+                </a>
+              </li>
+              <li className="link-item">
+                <a
+                  className="link"
+                  href="https://github.com/bhosaleT"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={require("../images/svg/github.svg")} alt="Github" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     );
   }
