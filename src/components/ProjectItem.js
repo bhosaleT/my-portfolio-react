@@ -27,7 +27,7 @@ class ProjectItem extends React.Component {
               <li className="link-item">
                 <a
                   className="link"
-                  href="https://github.com/bhosaleT"
+                  href={this.props.project.github}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -37,7 +37,7 @@ class ProjectItem extends React.Component {
               <li className="link-item">
                 <a
                   className="link"
-                  href="https://github.com/bhosaleT"
+                  href={this.props.project.web}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
