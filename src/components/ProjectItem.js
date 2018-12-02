@@ -41,7 +41,7 @@ class ProjectItem extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={require("../images/svg/github.svg")} alt="Github" />
+                  <img src={require("../images/svg/chrome.svg")} alt="Github" />
                 </a>
               </li>
             </ul>
