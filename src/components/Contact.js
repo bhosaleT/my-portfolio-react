@@ -142,34 +142,32 @@ class Contact extends React.Component {
   };
 
   render() {
-    return (
-      <div className="contact">
+    return <div className="contact">
         <div id="map" />
 
         <ul className="contact-list">
           <li className="contact-item">
-            <a href="">
-              <img src={require("../images/svg/mail.svg")} alt="" />
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bhosaletejas93@gmail.com" target="_blank" rel="noopener noreferrer">
+              <img src={require("../images/svg/mail.svg")} alt="Mail" />
             </a>
           </li>
           <li className="contact-item">
-            <a href="">
-              <img src={require("../images/svg/github.svg")} alt="" />
+            <a href="https://github.com/bhosaleT" target="_blank" rel="noopener noreferrer">
+              <img src={require("../images/svg/github.svg")} alt="Github" />
             </a>
           </li>
           <li className="contact-item">
-            <a href="">
-              <img src={require("../images/svg/linkedin.svg")} alt="" />
+          <a href="https://www.linkedin.com/in/tejas-bhosale/" target="_blank" rel="noopener noreferrer">
+              <img src={require("../images/svg/linkedin.svg")} alt="Linkedin" />
             </a>
           </li>
           <li className="contact-item">
-            <a href="">
-              <img src={require("../images/svg/instagram.svg")} alt="" />
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <img src={require("../images/svg/instagram.svg")} alt="Instagram" />
             </a>
           </li>
         </ul>
-      </div>
-    );
+      </div>;
   }
 }
 
