@@ -233,6 +233,7 @@ li {
   box-sizing: border-box;
 }
 
+
 .education-block__tab {
   display: flex;
   /* border-bottom: 1px solid #272727; */
@@ -256,6 +257,9 @@ li {
 }
 
 @media (max-width: 840px) {
+  .education-block{
+    width: 600px;
+  }
   .education-block__tab {
     display: flex;
     flex-direction: column;
@@ -273,6 +277,22 @@ li {
 
   .education-block__info {
     width: 600px;
+    padding: 10px;
+    /* padding-left: 60px; */
+    background: #eeeeee;
+  }
+}
+
+
+@media (max-width: 600px){
+  .education-block{
+    width: 400px;
+  }
+  .education-block__date {
+    width: 100px;
+  }
+  .education-block__info {
+    width: 400px;
     padding: 10px;
     /* padding-left: 60px; */
     background: #eeeeee;
