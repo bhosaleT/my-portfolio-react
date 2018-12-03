@@ -6,7 +6,7 @@ const projectElements = {
     desc:
       "This is the final project of Udacity Front-End Nanodegree and was made using React16. Google Maps API and FourSquare API was used to take top locations dynamically and display them on the google map. Sass and flexbox was used for styling this website",
     // descLong: "A Google Maps based website that shows "
-    tags: ["React.js", "AJAX", "AXIOS", "ES6", "SASS", "Google Maps API", "Foursquare API"],
+    tags: ["React.js", "AJAX", "AXIOS", "ES6", "SASS"],
     github: "https://github.com/bhosaleT/neighbourhood-maps-udacity-react",
     web: "https://github.com/bhosaleT/neighbourhood-maps-udacity-react"
   },
@@ -28,7 +28,7 @@ const projectElements = {
       "Every foodies dream! Share your favourite food junction with the world!",
     desc:
       "This is a Node.js website that uses Express and mongoDB as its backend, The ES6 version of javascript was used to develop this website. In addition this website uses google maps to locate stores and authentication is added using the Passport library.",
-    tags: ["NODE.js", "Express", "MongoDB", "ES6", "SASS", "Google Maps API"],
+    tags: ["NODE.js", "Express", "MongoDB", "ES6", "SASS"],
     github: "https://github.com/bhosaleT/thats-delicious--nodejs-",
     web: "https://store-near-you.herokuapp.com/"
   },
