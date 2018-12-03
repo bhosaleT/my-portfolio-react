@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The skills component should render without crashing 1`] = `
+<div
+  className="skill-block"
+>
+  <div
+    className="skill-block__tab"
+  >
+    <h4
+      className="skill-block__heading"
+    >
+      <img
+        alt="download button"
+        className="button-download"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "html-five.svg",
+          }
+        }
+      />
+      Front End
+    </h4>
+    <ul
+      className="skill-list"
+    >
+      <li
+        className="skill-item"
+      >
+        HTML5
+      </li>
+      <li
+        className="skill-item"
+      >
+        CSS3 / Sass
+      </li>
+      <li
+        className="skill-item"
+      >
+        FlexBox / CSS-GRID
+      </li>
+      <li
+        className="skill-item"
+      >
+        JavaScript (ES6)
+      </li>
+      <li
+        className="skill-item"
+      >
+        jQuery
+      </li>
+      <li
+        className="skill-item"
+      >
+        React
+      </li>
+      <li
+        className="skill-item"
+      >
+        Redux
+      </li>
+    </ul>
+  </div>
+  <div
+    className="skill-block__tab"
+  >
+    <h4
+      className="skill-block__heading"
+    >
+      <img
+        alt="download button"
+        className="button-download"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "archive.svg",
+          }
+        }
+      />
+      Back End
+    </h4>
+    <ul
+      className="skill-list"
+    >
+      <li
+        className="skill-item"
+      >
+        Node.js
+      </li>
+      <li
+        className="skill-item"
+      >
+        Express
+      </li>
+      <li
+        className="skill-item"
+      >
+        Firebase
+      </li>
+      <li
+        className="skill-item"
+      >
+        MySQL and NoSQL
+      </li>
+    </ul>
+  </div>
+  <div
+    className="skill-block__tab"
+  >
+    <h4
+      className="skill-block__heading"
+    >
+      <img
+        alt="download button"
+        className="button-download"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "git.svg",
+          }
+        }
+      />
+      Other
+    </h4>
+    <ul
+      className="skill-list"
+    >
+      <li
+        className="skill-item"
+      >
+        Git / Github
+      </li>
+      <li
+        className="skill-item"
+      >
+        JSON
+      </li>
+      <li
+        className="skill-item"
+      >
+        Webpack
+      </li>
+      <li
+        className="skill-item"
+      >
+        Responsive Design
+      </li>
+      <li
+        className="skill-item"
+      >
+        Jasmine/Jest Testing
+      </li>
+    </ul>
+  </div>
+</div>
+`;

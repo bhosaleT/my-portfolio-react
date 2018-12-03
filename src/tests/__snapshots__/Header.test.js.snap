@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The skills component should render without crashing 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <div
+      className="info"
+    >
+      <h2
+        className="name"
+      >
+        Tejas Bhosale
+      </h2>
+      <p
+        className="title"
+      >
+        Full Stack Developer 
+        <span
+          className="divider"
+        >
+           || 
+        </span>
+         Game Enthusiast
+      </p>
+    </div>
+  </div>
+</div>
+`;
