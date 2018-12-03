@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render About component correctly 1`] = `
+<div
+  className="about"
+>
+  <img
+    alt="Tejas-Bhosale"
+    className="profile-image"
+    src="me.png"
+  />
+  <div
+    className="about__text"
+  >
+    <p
+      className="about-text"
+    >
+      <span
+        className="highlight"
+      >
+         I'm
+      </span>
+       a newly graduated web developer offering enthusiasm and understanding of Front-end frameworks like React, Redux and advanced CSS techniques and back-end frameworks like Node.js and mongoDB. I will bring to the table the ability to design and develop beautiful and functional websites using the latest technologies and web guidelines.
+    </p>
+    <a
+      className="button"
+      download={true}
+      href="resume.pdf"
+    >
+      <img
+        alt="download button"
+        className="button-download"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "install.svg",
+          }
+        }
+      />
+      DOWNLOAD CV
+       
+    </a>
+  </div>
+</div>
+`;

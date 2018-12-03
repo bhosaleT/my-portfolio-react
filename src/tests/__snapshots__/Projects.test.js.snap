@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render projects component without crashing 1`] = `
+<div>
+  <ul
+    className="projects"
+  >
+    <li>
+      <ProjectItem
+        project={
+          Object {
+            "desc": "This is the final project of Udacity Front-End Nanodegree and was made using React16. Google Maps API and FourSquare API was used to take top locations dynamically and display them on the google map. Sass and flexbox was used for styling this website",
+            "descShort": "First time in Mumbai? This is where you should go first!",
+            "github": "https://github.com/bhosaleT/neighbourhood-maps-udacity-react",
+            "image": "/projects/map.png",
+            "name": "When In Mumbai",
+            "tags": Array [
+              "React.js",
+              "AJAX",
+              "AXIOS",
+              "ES6",
+              "SASS",
+              "Google Maps API",
+              "Foursquare API",
+            ],
+            "web": "https://github.com/bhosaleT/neighbourhood-maps-udacity-react",
+          }
+        }
+      />
+    </li>
+    <li>
+      <ProjectItem
+        project={
+          Object {
+            "desc": "This is a money management website made using React16 and Redux for the front-end and Firebase database and Firebase authentication for the backend. Redux is used to add, remove and edit expenses. Expenses can also be filtered based on text, date or value",
+            "descShort": "Note down all those pesky expenses and keep track of your money!",
+            "github": "https://github.com/bhosaleT/React-Budget",
+            "image": "/projects/pocketMoney.png",
+            "name": "Pocket Money",
+            "tags": Array [
+              "React.js",
+              "Redux",
+              "Firebase",
+              "SASS",
+              "ES6",
+              "Jest",
+            ],
+            "web": "https://react-pocket-money.herokuapp.com/",
+          }
+        }
+      />
+    </li>
+    <li>
+      <ProjectItem
+        project={
+          Object {
+            "desc": "This is a Node.js website that uses Express and mongoDB as its backend, The ES6 version of javascript was used to develop this website. In addition this website uses google maps to locate stores and authentication is added using the Passport library.",
+            "descShort": "Every foodies dream! Share your favourite food junction with the world!",
+            "github": "https://github.com/bhosaleT/thats-delicious--nodejs-",
+            "image": "/projects/food.png",
+            "name": "Thats Delicious",
+            "tags": Array [
+              "NODE.js",
+              "Express",
+              "MongoDB",
+              "ES6",
+              "SASS",
+              "Google Maps API",
+            ],
+            "web": "https://store-near-you.herokuapp.com/",
+          }
+        }
+      />
+    </li>
+    <li>
+      <ProjectItem
+        project={
+          Object {
+            "desc": "This is a React16 book management website which uses Udacity Books API to fetch all the books. The state functionality of React was used to store the books fetched from the API and then passed on to the components to be used as props into the book component. Changing state is used to move book from one Bookshelf to another shelf.",
+            "descShort": "We know you got Books for Days! let us help you manage them!",
+            "github": "https://github.com/bhosaleT/reactnd-project-myreads-starter",
+            "image": "/projects/bookish.png",
+            "name": "Bookish",
+            "tags": Array [
+              "React.js",
+              "AJAX",
+              "CSS",
+              "ES6",
+              "Jest",
+            ],
+            "web": "https://react-bookish.herokuapp.com/",
+          }
+        }
+      />
+    </li>
+    <li>
+      <ProjectItem
+        project={
+          Object {
+            "desc": "This project consists of three beautifully designed websites first of which is NATOURS -'This website uses custom grids and animations', TRILLO - 'This website was designed using the FLEXBOX library', NEXTER - 'This website was designed using the CSS GRID layout'.",
+            "descShort": "Three beautifully designed websites using everything that HTML/SaSS has to offer!",
+            "github": "https://github.com/bhosaleT/trillo-advancedCSS-flexbox",
+            "image": "/projects/css.png",
+            "name": "Advanced CSS",
+            "tags": Array [
+              "SASS",
+              "CSS_GRID",
+              "FLEXBOX",
+              "ES6",
+              "ANIMATIONS",
+            ],
+            "web": "https://bhosalet.github.io/trillo-advancedCSS-flexbox/",
+          }
+        }
+      />
+    </li>
+  </ul>
+</div>
+`;
