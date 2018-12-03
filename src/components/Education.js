@@ -13,16 +13,17 @@ const Education = () => (
       </h3>
       <div className="education-block__info">
         <h4 className="education-block__heading">
-          Front-End Developer Nanodegree Udacity
+          Front-End Web Developer Nanodegree Udacity
         </h4>
         <p className="education-block__paragraph">
           <q>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
-          debitis quibusdam voluptatum, similique deleniti corporis maiores
-          iusto vel sit quasi quia sequi eveniet consequuntur deserunt. Maiores
-          optio mollitia ipsum quod.
+            Completed my Front-End Web Developer Nanodegree with glowing code
+            and project reviews from the Udacity Code Reviewers. In this course
+            I developed multiple projects using the javascript framework React16
+            and API's like Google maps and foursquare. some of the valuable
+            skills I learned from this course was accessible, responsive design
+            and developing progressive web apps using serviceworkers.
           </q>
-          
         </p>
       </div>
     </div>
@@ -41,10 +42,12 @@ const Education = () => (
         </h4>
         <p className="education-block__paragraph">
           <q>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
-          debitis quibusdam voluptatum, similique deleniti corporis maiores
-          iusto vel sit quasi quia sequi eveniet consequuntur deserunt. Maiores
-          optio mollitia ipsum quod.
+            Finished my Computer Science Bachelor's degree from Datta Meghe college of Engineering.
+            I played a part in multiple projects throughout this course such as
+            a website and an Android app. For the final year BE project I
+            created a 2D platformer game using Unity3D engine for Windows and
+            Mac platform. This project can be found{" "}
+            <a href="https://github.com/bhosaleT/KnightFall">here</a>.
           </q>
         </p>
       </div>
@@ -59,15 +62,10 @@ const Education = () => (
         JUN 11 - JUN 13
       </h3>
       <div className="education-block__info">
-        <h4 className="education-block__heading">
-         School - Junior College
-        </h4>
+        <h4 className="education-block__heading">School - Junior College</h4>
         <p className="education-block__paragraph">
           <q>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
-          debitis quibusdam voluptatum, similique deleniti corporis maiores
-          iusto vel sit quasi quia sequi eveniet consequuntur deserunt. Maiores
-          optio mollitia ipsum quod.
+           Finished my schooling from "Shri Vani Vidya Shala High School" with a special interest in Computers and went on to finish my jr College from S.V. Joshi College with Computer Science as my selected subject. 
           </q>
         </p>
       </div>
