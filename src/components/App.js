@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import Education from "./Education";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import Footer from "./Footer";
 
 class App extends Component {
   state = {
@@ -44,12 +45,17 @@ class App extends Component {
 
     return (
       <div>
-        <Header />
-        <Selector
-          onSelect={this.onSelect}
-          selectedSection={this.state.selectedSection}
-        />
-        {showSection()}
+        <div className="content">
+          <Header />
+          <div className="content-inside">
+            <Selector
+              onSelect={this.onSelect}
+              selectedSection={this.state.selectedSection}
+            />
+            {showSection()}
+          </div>
+        </div>
+        <Footer />
       </div>
     );
   }
