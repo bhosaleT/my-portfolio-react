@@ -103,6 +103,7 @@ body {
   text-transform: uppercase;
   box-shadow: 0 5px 20px #272727;
 }
+
 .title {
   margin: 0;
   text-align: center;
@@ -129,7 +130,7 @@ li {
   align-items: center;
   justify-items: center;
   cursor: pointer;
-  margin-top: 55px;
+  margin-top: 30px;
   font-size: 18px;
 }
 
@@ -179,7 +180,7 @@ li {
   font-weight: bold;
   color: #272727;
   font-size: 25px;
- font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico', cursive;
 }
 
 .button {
@@ -207,9 +208,11 @@ li {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
 }
+
 .button:focus {
   outline: none;
 }
+
 .button:active {
   transform: translateY(-1px);
   outline: none;
@@ -239,12 +242,15 @@ li {
   animation: fadeIn 0.5s linear;
   animation-fill-mode: both;
 }
+
 .education-block__tab:nth-child(1) {
   animation-delay: 0.25s;
 }
+
 .education-block__tab:nth-child(2) {
   animation-delay: 0.5s;
 }
+
 .education-block__tab:nth-child(3) {
   animation-delay: 1.15s;
 }
@@ -260,9 +266,11 @@ li {
     animation: fadeIn 0.5s linear;
     animation-fill-mode: both;
   }
+
   .education-block__date {
     width: 200px;
   }
+
   .education-block__info {
     width: 600px;
     padding: 10px;
@@ -375,15 +383,19 @@ li {
 .skill-item:nth-child(3) {
   animation-delay: 0.45s;
 }
+
 .skill-item:nth-child(4) {
   animation-delay: 1s;
 }
+
 .skill-item:nth-child(5) {
   animation-delay: 1.15s;
 }
+
 .skill-item:nth-child(6) {
   animation-delay: 1.3s;
 }
+
 .skill-item:nth-child(7) {
   animation-delay: 1.45s;
 }
@@ -393,10 +405,12 @@ li {
     opacity: 0;
     top: 100px;
   }
+
   70% {
     opacity: 0.5;
     top: 0px;
   }
+
   100% {
     opacity: 1;
   }
@@ -451,13 +465,16 @@ li {
   0% {
     opacity: 0;
   }
+
   75% {
     opacity: 0.7;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 .contact-item:hover {
   transform: translateY(-10px) scale(1.5);
 }
@@ -482,6 +499,37 @@ li {
   grid-gap: 30px; */
   width: 950px;
 }
+
+@media (max-width: 1200px) {
+  .projects {
+    margin: 20px auto;
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .projects {
+    margin: 20px auto;
+    width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects {
+    margin: 20px auto;
+    width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .projects {
+    margin: 20px auto;
+    width: 300px;
+  }
+}
+
+
 
 .img-container {
   display: grid;
@@ -517,9 +565,11 @@ li {
 .project:nth-child(3) {
   animation-delay: 0.45s;
 }
+
 .project:nth-child(4) {
   animation-delay: 1s;
 }
+
 .project:nth-child(5) {
   animation-delay: 1.15s;
 }
@@ -540,6 +590,31 @@ li {
   width: 700px;
   height: auto;
 }
+
+@media (max-width: 1200px) {
+  .project-img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 850px) {
+  .project-img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .project-img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .project-img {
+    width: 200px;
+  }
+}
+
 
 .project-shortDesc {
   height: 30px;
@@ -582,12 +657,14 @@ li {
   justify-content: space-between;
 }
 
+
+
 .buttons {
   display: flex;
   flex-direction: row;
 }
 
-.link{
+.link {
   padding: 10px;
 }
 
@@ -601,14 +678,25 @@ li {
   width: 400px;
 }
 
+@media (max-width: 600px) {
+  .blog {
+    margin: 30px auto;
+    width: 300px;
+  }
+}
+
 .blog-heading {
   /* text-align: center; */
   text-transform: uppercase;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid #272727; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid #272727;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.13em;
   /* font-size: 25px; */
   padding: 10px;
   font-weight: 300;
@@ -623,6 +711,7 @@ li {
   from {
     width: 0;
   }
+
   to {
     width: 100%;
   }
@@ -630,22 +719,25 @@ li {
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
+
   from,
   to {
     border-color: transparent;
   }
+
   50% {
     border-color: #272727;
   }
 }
+
 /* ---------------------- FOOTER -------------------- */
-.footer{
+.footer {
   height: 60px;
   margin-top: 120px;
   background: #272727;
 }
 
-.footer-title{
+.footer-title {
   color: white;
   text-align: center;
   padding: 15px;
@@ -656,6 +748,7 @@ li {
 .content {
   min-height: 100%;
 }
+
 .content-inside {
   padding: 20px;
   padding-bottom: 50px;
