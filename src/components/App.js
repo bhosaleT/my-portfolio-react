@@ -8,7 +8,7 @@ import Contact from "./Contact";
 import Education from "./Education";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import Footer from "./Footer";
+
 
 class App extends Component {
   state = {
@@ -55,7 +55,7 @@ class App extends Component {
             {showSection()}
           </div>
         </div>
-        <Footer />
+    
       </div>
     );
   }

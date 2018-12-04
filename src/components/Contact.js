@@ -162,7 +162,7 @@ class Contact extends React.Component {
             </a>
           </li>
           <li className="contact-item">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/wittystarlord/?hl=en" target="_blank" rel="noopener noreferrer">
               <img src={require("../images/svg/instagram.svg")} alt="Instagram" />
             </a>
           </li>
