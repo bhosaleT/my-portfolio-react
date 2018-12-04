@@ -83,14 +83,9 @@ body {
   }
 }
 
-@media (max-width: 800px) {
-  .profile-image {
-    height: auto;
-    width: 200px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-}
+/* @media (max-width: 800px) {
+  
+} */
 
 .name {
   background: #272727;
@@ -153,6 +148,7 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 500px;
   }
 }
 
@@ -169,12 +165,12 @@ li {
   animation-duration: 1.5s;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .about-text {
     font-size: 18px;
     width: 500px;
   }
-}
+} */
 
 .highlight {
   font-weight: bold;
