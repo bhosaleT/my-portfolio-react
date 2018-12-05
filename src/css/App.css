@@ -1,11 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-size: 340px, auto;
-  min-height: calc(100vh - 100px);
-  /* margin: 0 100px; */
-  /* background: #eeeeee; */
-  background-attachment: fixed;
   letter-spacing: -1px;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -21,12 +18,10 @@ body {
 
 .profile-image {
   width: auto;
-  height: 310px;
+  height: 315px;
   /* transform: rotate(270deg); */
   margin-right: 20px;
-  border-radius: 5px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
-  border: none;
   margin-top: 20px;
   animation-name: moveInLeft;
   animation-duration: 1.5s;
