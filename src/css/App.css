@@ -8,10 +8,77 @@ body {
 .header {
   margin: 10px auto;
   display: grid;
-  /* grid-template-areas: "img name" "img name"; */
   align-items: center;
   width: 800px;
   justify-items: center;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    margin: 10px auto;
+    display: grid;
+    align-items: center;
+    width: 600px;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .title {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    padding: 2px;
+  }
+
+  .name {
+    background: #272727;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 20px #272727;
+  }
+
+  .header {
+    margin: 10px auto;
+    display: grid;
+    align-items: center;
+    width: 500px;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    margin: 10px auto;
+    display: grid;
+    align-items: center;
+    width: 300px;
+    justify-items: center;
+  }
+
+  .name {
+    background: #272727;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 20px #272727;
+  }
+
+  .title {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    padding: 2px;
+  }
 }
 
 /*           ABOUT SECTION      */
@@ -19,7 +86,6 @@ body {
 .profile-image {
   width: auto;
   height: 315px;
-  /* transform: rotate(270deg); */
   margin-right: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
   margin-top: 20px;
@@ -132,18 +198,59 @@ li {
   margin: 50px auto;
   display: flex;
   line-height: 1.5;
-  /* justify-content: center; */
-  /* align-items: center; */
   width: 800px;
+}
+
+@media (max-width: 1200px) {
+  .about {
+    display: flex;
+    margin: 50px auto;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    width: 600px;
+  }
 }
 
 @media (max-width: 800px) {
   .about {
     display: flex;
+    margin: 20px auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 500px;
+  }
+
+  .profile-image {
+    width: auto;
+    height: 250px;
+    margin-right: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+    margin-top: 20px;
+    animation-name: moveInLeft;
+    animation-duration: 1.5s;
+  }
+}
+
+@media (max-width: 600px) {
+  .about {
+    display: flex;
+    margin: 20px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+  }
+
+  .profile-image {
+    width: auto;
+    height: 200px;
+    margin-right: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+    margin-top: 20px;
+    animation-name: moveInLeft;
+    animation-duration: 1.5s;
   }
 }
 
@@ -171,7 +278,7 @@ li {
   font-weight: bold;
   color: #272727;
   font-size: 25px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
 .button {
@@ -224,7 +331,6 @@ li {
   box-sizing: border-box;
 }
 
-
 .education-block__tab {
   display: flex;
   /* border-bottom: 1px solid #272727; */
@@ -247,8 +353,8 @@ li {
   animation-delay: 1.15s;
 }
 
-@media (max-width: 840px) {
-  .education-block{
+@media (max-width: 1200px) {
+  .education-block {
     width: 600px;
   }
   .education-block__tab {
@@ -274,16 +380,31 @@ li {
   }
 }
 
-
-@media (max-width: 600px){
-  .education-block{
-    width: 400px;
+@media (max-width: 800px) {
+  .education-block {
+    width: 500px;
   }
   .education-block__date {
-    width: 100px;
+    width: 200px;
   }
   .education-block__info {
-    width: 400px;
+    width: 500px;
+    padding: 10px;
+    /* padding-left: 60px; */
+    background: #eeeeee;
+  }
+}
+
+@media (max-width: 600px) {
+  .education-block {
+    width: 300px;
+  }
+  .education-block__date {
+    width: 200px;
+    /* height: 500px; */
+  }
+  .education-block__info {
+    width: 300px;
     padding: 10px;
     /* padding-left: 60px; */
     background: #eeeeee;
@@ -341,12 +462,31 @@ li {
   justify-content: space-between;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
+  .skill-block {
+    display: flex;
+    /* margin: 50px auto; */
+    /* flex-direction: column; */
+    width: 600px;
+     justify-content: space-between;
+  }
+}
+
+@media (max-width: 800px) {
   .skill-block {
     display: flex;
     /* margin: 50px auto; */
     flex-direction: column;
-    width: 400px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .skill-block {
+    display: flex;
+    /* margin: 50px auto; */
+    flex-direction: column;
+    width: 300px;
   }
 }
 
@@ -468,8 +608,8 @@ li {
   grid-template-columns: repeat(4, 45px);
   grid-gap: 15px;
   cursor: pointer;
-  animation-name: appearIn;
-  animation-duration: 1s;
+  /* animation-name: appearIn;
+  animation-duration: 1s; */
 }
 
 @keyframes appearIn {
@@ -518,7 +658,6 @@ li {
   }
 }
 
-
 @media (max-width: 800px) {
   .projects {
     margin: 20px auto;
@@ -539,8 +678,6 @@ li {
     width: 300px;
   }
 }
-
-
 
 .img-container {
   display: grid;
@@ -626,7 +763,6 @@ li {
   }
 }
 
-
 .project-shortDesc {
   height: 30px;
   font-size: 16px;
@@ -638,7 +774,7 @@ li {
   height: 80px;
 }
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
   .project-desc {
     height: 80px;
     font-size: 16px;
@@ -655,7 +791,7 @@ li {
   } */
 }
 
-@media(max-width: 600px){
+@media (max-width: 600px) {
   .project-desc {
     height: 110px;
     font-size: 16px;
@@ -741,7 +877,7 @@ li {
   /* Keeps the content on a single line */
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.13em;
+  letter-spacing: 0.18em;
   /* font-size: 25px; */
   padding: 10px;
   font-weight: 300;
@@ -764,7 +900,6 @@ li {
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-
   from,
   to {
     border-color: transparent;
