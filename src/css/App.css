@@ -169,7 +169,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 700px;
+  width: 800px;
 }
 
 li {
@@ -194,14 +194,19 @@ li {
 @media (max-width: 800px) {
   .container {
     margin: 0 auto;
-    width: 500px;
+    width: 600px;
   }
 }
 
 @media (max-width: 600px) {
   .container {
     margin: 0 auto;
-    width: 350px;
+    width: 300px;
+  }
+  .selector-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px,1fr));
+    font-size: 14px;
   }
 }
 
@@ -908,6 +913,9 @@ li {
   .blog-heading {
     font-size: 14px;
     letter-spacing: 0.15em;
+  }
+  .giphy-embed{
+    width: 300px;
   }
 }
 
