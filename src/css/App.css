@@ -861,7 +861,7 @@ li {
 
 @media (max-width: 600px) {
   .project-div {
-    margin: 40px auto;
+    margin: 40px 10px;
     width: 320px;
   }
 
@@ -872,11 +872,13 @@ li {
   }
 
   .project-desc {
-    height: 170px;
+    height: 150px;
+    font-size: 14px;
   }
 
   .project-shortDesc {
-    height: 60px;
+    height: 40px;
+    font-size: 14px;
   }
 
   .tag-item {
@@ -891,6 +893,16 @@ li {
     font-weight: 400;
     /* border-radius: 5px; */
     box-shadow: 0 0.5px 0.5px rgba(0, 0, 0, 0.9);
+  }
+
+  .project-title {
+    font-size: 16px;
+    margin: 10px;
+    background: #272727;
+    color: white;
+    /* width: 180px; */
+    padding: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
   }
 }
 
