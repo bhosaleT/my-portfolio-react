@@ -6,7 +6,7 @@ class Projects extends React.Component {
   render() {
     const projectArray = Object.values(projectElements);
     return (
-      <div>
+      <div className="project-div">
         <ul className="projects">
           {projectArray.map(project => (
             <li key={project.name}><ProjectItem project={project} /></li>
