@@ -9,7 +9,6 @@ import Education from "./Education";
 import Projects from "./Projects";
 import Skills from "./Skills";
 
-
 class App extends Component {
   state = {
     selectedSection: "About"
@@ -35,7 +34,7 @@ class App extends Component {
         case "Projects":
           return <Projects />;
         case "Blog":
-          return <Blog />;
+          return <Blog />;   
         case "Contact":
           return <Contact />;
         default:
@@ -55,7 +54,6 @@ class App extends Component {
             {showSection()}
           </div>
         </div>
-    
       </div>
     );
   }
