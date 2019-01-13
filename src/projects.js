@@ -8,7 +8,7 @@ const projectElements = {
     // descLong: "A Google Maps based website that shows "
     tags: ["React.js", "AJAX", "AXIOS", "ES6", "SASS"],
     github: "https://github.com/bhosaleT/neighbourhood-maps-udacity-react",
-    web: "https://github.com/bhosaleT/neighbourhood-maps-udacity-react"
+    web: "https://wheninmumbai.herokuapp.com/"
   },
   project2: {
     name: "Pocket Money",
